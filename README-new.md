@@ -1,6 +1,6 @@
 # d
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+(https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Table of Contents
 - [Description](#description)
@@ -32,5 +32,5 @@ This project is licensed under the MIT license.
   
 ## Questions
 For questions about this project, please contact me at:
-GitHub: d [d]
-Email: d
+- GitHub:  [d]
+- Email: d
