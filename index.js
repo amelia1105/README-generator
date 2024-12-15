@@ -23,7 +23,7 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'Enter usage information',
+        message: 'Enter usage information.',
     },
     {
         type: 'input',
@@ -69,7 +69,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then((answers) => {
         const markdownContent = generateMarkdown(answers);
-        writeToFile('README.md', markdownContent);
+        writeToFile('README-new.md', markdownContent);
     });
 }
 init(); 
