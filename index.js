@@ -1,9 +1,9 @@
-// TODO: Include packages needed for this application
+// Import packages needed for this application
 import inquirer from 'inquirer';
 import fs from 'fs';
 import generateMarkdown from './utils/generateMarkdown.js';
 
-// TODO: Create an array of questions for user input
+// Collect user input as an array
 const questions = [
     {
         type: 'input',
@@ -58,14 +58,14 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to write README file
+// Function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
         err ? console.log(err) : console.log('Successfully created ' + fileName + '!')
     );
 }
 
-// TODO: Create a function to initialize app
+// Function to initialize application using inquirer. A dist file is created if it does not exist and the new README.md file is loaded there.
 function init() {
     const dir = './dist';
     if (!fs.existsSync(dir)){
@@ -77,4 +77,5 @@ function init() {
     });
 };
 
+// Initialize
 init();
