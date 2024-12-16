@@ -10,14 +10,14 @@ This project was developed for Homework 7 of the Rutgers University Coding Bootc
 - [Usage](#usage)
 - [License](#license)
 - [Contributions](#contributions)
-- [Questions] (#questions)
-- [Video] (#video)
+- [Questions](#questions)
+- [Video](#video)
 
 ## Installation
 
-1. First, navigate to the directory on your local device where you would like the files to be stored.
+1. First, navigate to where you would like the files to be stored on your local device.
 
-2. Clone the repo to your local device. This can be done by following the link to the GitHub Repo, clicking the green "Code" button, copying either the HTTPS or SSH filepath, and then running the following code:
+2. Clone the repo to your local device. This can be done by following the link to the GitHub Repo, clicking the green "Code" button, copying either the HTTPS or SSH filepath, and then running the following code in the command line:
 
     ```sh
     git clone <filepath>
@@ -29,22 +29,34 @@ This project was developed for Homework 7 of the Rutgers University Coding Bootc
     npm i
     ```
 
-4. Now, run Node.js on the index.js file:
+## Usage
+
+1. Open the command line and change to the README-generator directory. Run Node on the index.js file:
 
     ```sh
     node index.js
     ```
 
-5. You should then be prompted to answer a series of questions. After answering all of these questions, a README-new.md file should be created in your directory with the information you've entered.
-
-## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+2. You should then be prompted to answer a series of questions. Type in your answers and press enter. For the license, use the arrow keys to scroll through the list, and use enter to select a license.
 
     ```md
-    ![alt text](assets/images/screenshot.png)
+    ![screenshot of terminal demonstrating which licenses are available](./assets/license-choices.png)
+    ```
+
+3. After answering all of these questions, you should see "Successfully created README-new.md!" in the command line, and a README-new.md file should be created in your directory with the information you've entered. 
+
+    ```md
+    ![screenshot of terminal showing that information was entered successfully](./assets/success.png)
+    ```
+
+    ```md
+    ![screenshot of README-new.md file](./assets/new-readme.png)
+    ```
+
+4. You can copy and paste this file into your new project directory. Edit and add or remove sections as needed.
+
+    ```md
+    ![screenshot showing newly created README-new.md used in a sample repo](./assets/sample-repo.png)
     ```
 
 ## License

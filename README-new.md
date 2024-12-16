@@ -1,4 +1,4 @@
-# f
+# Title of project
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
@@ -12,19 +12,19 @@
 - [Questions](#questions)
 
 ## Description
-f
+Description of project
   
 ## Installation
-f
+Instructions for installation
   
 ## Usage
-f
+Explain how to use the code
   
 ## Contributing
-f
+Include information about contributions
   
 ## Tests
-f
+Include testing instructions here
   
 ## License
 This project is licensed under the MIT license.
@@ -32,5 +32,5 @@ This project is licensed under the MIT license.
   
 ## Questions
 For questions about this project, please contact me at:
-- GitHub: f [f]
-- Email: f
+- GitHub: amelia1105 [https://github.com/amelia1105]
+- Email: aebellanger@yahoo.com

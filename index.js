@@ -63,7 +63,7 @@ function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
         err ? console.log(err) : console.log('Successfully created ' + fileName + '!')
     );
-} //pass generate markdown output, use the miniproject fs code
+}
 
 // TODO: Create a function to initialize app
 function init() {
