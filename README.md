@@ -87,11 +87,11 @@ SOFTWARE.
 
 Starter code was sourced from Rutgers University Coding Bootcamp 07-NodeJS > 02-Challenge > Develop. All other contributions were made by myself. 
 
-GitHub: amelia1105 [https://github.com/amelia1105]
+GitHub: amelia1105 (https://github.com/amelia1105)
 
 ## Questions
 
-For any questions about this project, please contact me by email: [aebellanger@yahoo.com]
+For any questions about this project, please contact me by email: (aebellanger@yahoo.com)
 
 ## Video
 link to video here
