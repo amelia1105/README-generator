@@ -41,7 +41,7 @@ This project was developed for Homework 7 of the Rutgers University Coding Bootc
 
     ![screenshot of terminal demonstrating which licenses are available](./assets/license-choice.png)
 
-3. After answering all of these questions, you should see "Successfully created ./dist/README.md!" in the command line.
+3. After answering all of these questions, you should see "Successfully created ./dist/README.md!" in the command line. If a README.md file is already in the dist folder, it will be overwritten with the new input.
 
     ![screenshot of terminal showing that information was entered successfully](./assets/success.png)
 
