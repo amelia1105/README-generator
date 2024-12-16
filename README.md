@@ -23,7 +23,7 @@ This project was developed for Homework 7 of the Rutgers University Coding Bootc
     git clone <filepath>
     ```
 
-3. In the command line, install dependencies using the following:
+3. Change to the README-generator directory. In the command line, install dependencies using the following:
 
     ```sh
     npm i
@@ -31,7 +31,7 @@ This project was developed for Homework 7 of the Rutgers University Coding Bootc
 
 ## Usage
 
-1. Open the command line and change to the README-generator directory. Run Node on the index.js file:
+1. Open the command line if it is not already open. Run Node on the index.js file:
 
     ```sh
     node index.js
@@ -45,7 +45,7 @@ This project was developed for Homework 7 of the Rutgers University Coding Bootc
 
     ![screenshot of terminal showing that information was entered successfully](./assets/success.png)
 
-    A dist folder will be created (or updated) with the new README.md file containing all the information that was entered. 
+    The new README.md file will be in the dist folder: 
     
     ![screenshot of README.md file](./assets/dist-folder.png)
 
