@@ -91,7 +91,7 @@ GitHub: amelia1105 (https://github.com/amelia1105)
 
 ## Questions
 
-For any questions about this project, please contact me by email: (aebellanger@yahoo.com)
+For any questions about this project, please contact me by email: aebellanger@yahoo.com
 
 ## Video
 [How to install and use this README generator](https://drive.google.com/file/d/1fED_CVNOWpmyIc5xAyK5n9ttkJ9pqEFi/view?usp=drive_link)
