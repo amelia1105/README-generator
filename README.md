@@ -2,7 +2,7 @@
 
 ## Description
 
-This project was developed for Homework 7 of the Rutgers University Coding Bootcamp program. The goal is to build an application that will allow users to develop a high-quality README file. Using this code and Node.js, the user will be asked a series of questions that they will answer in the command line. A README-new.md file will be created with the user's input in a preset template. This saves the user time and allows them to dedicate more time to the rest of their project. I mainly used JavaScript, Node.js, and Markdown to create this project. This project has not only broadened my knowledge of command line applicability, but it has also taught me how to troubleshoot outside of a browser environment without the help of Chrome DevTools.
+This project was developed for Homework 7 of the Rutgers University Coding Bootcamp program. The goal is to build an application that will allow users to develop a high-quality README file. Using this code and Node.js, the user will be asked a series of questions that they will answer in the command line. A README.md file will be created with the user's input in a preset template. This saves the user time and allows them to dedicate more time to the rest of their project. I mainly used JavaScript, Node.js, and Markdown to create this project. This project has not only broadened my knowledge of command line applicability, but it has also taught me how to troubleshoot outside of a browser environment without the help of Chrome DevTools.
 
 ## Table of Contents
 
@@ -39,25 +39,25 @@ This project was developed for Homework 7 of the Rutgers University Coding Bootc
 
 2. You should then be prompted to answer a series of questions. Type in your answers and press enter. For the license, use the arrow keys to scroll through the list, and use enter to select a license.
 
-    ```md
-    ![screenshot of terminal demonstrating which licenses are available](./assets/license-choices.png)
-    ```
+    ![screenshot of terminal demonstrating which licenses are available](./assets/license-choice.png)
 
-3. After answering all of these questions, you should see "Successfully created README-new.md!" in the command line, and a README-new.md file should be created in your directory with the information you've entered. 
+3. After answering all of these questions, you should see "Successfully created ./dist/README.md!" in the command line.
 
-    ```md
     ![screenshot of terminal showing that information was entered successfully](./assets/success.png)
-    ```
 
-    ```md
-    ![screenshot of README-new.md file](./assets/new-readme.png)
-    ```
+    A dist folder will be created (or updated) with the new README.md file containing all the information that was entered. 
+    
+    ![screenshot of README.md file](./assets/dist-folder.png)
+
+    New README.md:
+
+    ![screenshot of README.md file](./assets/new-readme.png)
 
 4. You can copy and paste this file into your new project directory. Edit and add or remove sections as needed.
 
-    ```md
-    ![screenshot showing newly created README-new.md used in a sample repo](./assets/sample-repo.png)
-    ```
+    Pasted into a 'sample' directory:
+    
+    ![screenshot showing newly created README-new.md used in a sample repo](./assets/paste-sample.png)
 
 ## License
 

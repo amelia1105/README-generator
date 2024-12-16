@@ -67,9 +67,14 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
+    const dir = './dist';
+    if (!fs.existsSync(dir)){
+        fs.mkdirSync(dir);
+    }   
     inquirer.prompt(questions).then((answers) => {
         const markdownContent = generateMarkdown(answers);
-        writeToFile('README-new.md', markdownContent);
+        writeToFile(`${dir}/README.md`, markdownContent);
     });
-}
-init(); 
+};
+
+init();
